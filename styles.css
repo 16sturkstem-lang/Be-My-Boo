@@ -7,12 +7,18 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#ffffff, #e08937);
+    background: linear-gradient(#fddcbc, #ee7504);
     background-size: cover;
     min-height: 100%;
     justify-content: flex-start;
     text-align: center;
-    font-family: cursive;
+    font-family: "Sarah", sans-serif;
+}
+
+@font-face {
+    font-family: "Sarah";
+    src: url("fonts/Sarahsfont-Regular.ttf");
+    font-weight: bold;
 }
 
 p {
@@ -46,21 +52,32 @@ button {
     padding: 10px 15px;
     white-space:nowrap;
     transition: transform 0.1s ease;
+    font-family: "Sarah";
+
 }
 
-.button:hover {
+button:hover {
     scale: 1.05;
 }
-
 
 #yes_button {
     transform-origin: center top;
     color:white;
     background-color: #a55f9d;
+    position: relative;
+    left: 0; 
+    top: 10%;
+    transform: translateX(-90%); /* Centers the button on its left position */
+    font-size: 2rem;
 }
 
 #no_button {
     color:white;
     background-color: #E77665;
+    font-size: 2rem;
+    left: 50%; 
+    top: 42.3%;
+    transform: translateX(-1%); /* Centers the button on its left position */
+    position: absolute;
 }
 
