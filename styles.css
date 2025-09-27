@@ -23,7 +23,7 @@ body {
 
 p {
   color: rgb(31, 8, 34);
-  font-size: xx-large;
+  font-size: xxx-large;
 }
 
 .container {
@@ -33,7 +33,7 @@ p {
 
 #ghost-gif {
     width: 500px;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -76,7 +76,7 @@ button:hover {
     background-color: #E77665;
     font-size: 2rem;
     left: 50%; 
-    top: 42.3%;
+    top: 53.85%;
     transform: translateX(-1%); /* Centers the button on its left position */
     position: absolute;
 }
