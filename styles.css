@@ -2,6 +2,7 @@ html, body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 body {
@@ -32,7 +33,7 @@ p {
 }
 
 #ghost-gif {
-    width: 29rem;
+    width: 31rem;
     height: 31.25rem;
     object-fit: cover;
 }
@@ -99,5 +100,26 @@ button:hover {
     
     #no_button {
         left: 25%;
+    }
+}
+
+/* Move content higher on mobile screens */
+@media screen and (max-height: 700px) {
+    #yes_button, #no_button {
+        top: 45%; /* Move buttons higher up */
+    }
+    
+    #ghost-gif {
+        top: 20%; /* Move ghost higher if needed */
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #yes_button, #no_button {
+        top: 40%;
+    }
+    
+    #ghost-gif {
+        top: 15%;
     }
 }
