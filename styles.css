@@ -106,7 +106,7 @@ button:hover {
 /* Move content higher on mobile screens */
 @media screen and (max-height: 700px) {
     #yes_button, #no_button {
-        top: 65%; /* Move buttons higher up */
+        top: 75%; /* Move buttons higher up */
     }
     
     #ghost-gif {
@@ -116,7 +116,7 @@ button:hover {
 
 @media screen and (max-height: 600px) {
     #yes_button, #no_button {
-        top: 65%;
+        top: 75%;
     }
     
     #ghost-gif {
