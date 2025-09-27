@@ -106,7 +106,7 @@ button:hover {
 /* Move content higher on mobile screens */
 @media screen and (max-height: 700px) {
     #yes_button, #no_button {
-        top: 60%; /* Move buttons higher up */
+        top: 65%; /* Move buttons higher up */
     }
     
     #ghost-gif {
@@ -116,10 +116,27 @@ button:hover {
 
 @media screen and (max-height: 600px) {
     #yes_button, #no_button {
-        top: 60%;
+        top: 65%;
     }
     
     #ghost-gif {
         top: 15%;
+    }
+}
+
+/* iPhone adjustments */
+@media screen and (max-width: 428px) {
+    #ghost-gif {
+        left: 50% !important;
+        transform: translateX(-50%);
+        max-width: 80vw; /* Limit width on mobile */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #ghost-gif {
+        left: 50% !important;
+        transform: translateX(-50%);
+        max-width: 75vw;
     }
 }
