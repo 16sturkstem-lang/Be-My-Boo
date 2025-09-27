@@ -28,11 +28,11 @@ p {
 
 .container {
     max-width: 100%;
-    margin: 1.875rem auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 #ghost-gif {
-    width: 31.25rem;
+    width: 29rem;
     height: 31.25rem;
     object-fit: cover;
 }
@@ -64,10 +64,10 @@ button:hover {
     transform-origin: center top;
     color:white;
     background-color: #a55f9d;
-    position: relative;
-    left: 0; 
-    top: 10%;
-    transform: translateX(-90%); /* Centers the button on its left position */
+    position: absolute;
+    left: 40%; 
+    top: 53.85%;
+    transform: translateX(-50%); /* Centers the button on its left position */
     font-size: 2rem;
 }
 
@@ -75,9 +75,9 @@ button:hover {
     color:white;
     background-color: #E77665;
     font-size: 2rem;
-    left: 50%; 
+    left: 60%; 
     top: 53.85%;
-    transform: translateX(-1%); /* Centers the button on its left position */
+    transform: translateX(-50%); /* Centers the button on its left position */
     position: absolute;
 }
 
