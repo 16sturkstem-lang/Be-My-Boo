@@ -26,7 +26,7 @@ p {
     color: rgb(31, 8, 34);
     font-size: xxx-large;
     position: absolute;
-    top: 40%; /* Adjust this to position below the ghost */
+    top: 45%; /* Adjust this to position below the ghost */
     transform: translateX(-50%);
     margin: 0; /* Remove default margins */
     text-align: center;
@@ -42,7 +42,8 @@ p {
     height: 31.25rem;
     object-fit: cover;
     position: absolute;
-    transform: translateX(-50%); /* ADD THIS to center it */
+    top: 5%;
+    transform: translateX(-50%); 
 }
 
 .buttons-container {
@@ -110,38 +111,33 @@ button:hover {
     }
 }
 
-/* Move content higher on mobile screens */
 @media screen and (max-height: 700px) {
-    #yes_button, #no_button {
-        top: 75%; /* Move buttons higher up */
+    #ghost-gif {
+        top: 3%; /* Higher on shorter screens */
     }
     
-    #ghost-gif {
-        top: 20%; /* Move ghost higher if needed */
+    p {
+        top: 35%;
+    }
+    
+    #yes_button, #no_button {
+        top: 75%;
     }
 }
 
 @media screen and (max-height: 600px) {
-    #yes_button, #no_button {
-        top: 70%;
+    #ghost-gif {
+        top: 2%;
+        width: 15rem; /* Even smaller on very short screens */
+        height: 15rem;
     }
     
-    #ghost-gif {
-        top: 15%;
+    p {
+        top: 30%;
+        font-size: large;
     }
-}
-
-/* iPhone adjustments */
-@media screen and (max-width: 428px) {
-    #ghost-gif {
-        left: 50% !important;
-        transform: translateX(-50%);
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #ghost-gif {
-        left: 50% !important;
-        transform: translateX(-50%);
+    
+    #yes_button, #no_button {
+        top: 70%;
     }
 }
