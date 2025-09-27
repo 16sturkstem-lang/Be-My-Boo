@@ -1,7 +1,7 @@
 // set variables
 
 // array of gifs
-const gif = ["images/ghost-anticipatedisappointment", "images/ghost-blush", "images/ghost-cute", "images/ghost-dejected", "images/ghost-heart", "images/ghost-sadflower", "images/ghost-sway", "images/ghost-tears"]
+const gifs = ["images/ghost-anticipatedisappointment", "images/ghost-blush", "images/ghost-cute", "images/ghost-dejected", "images/ghost-heart", "images/ghost-sadflower", "images/ghost-sway", "images/ghost-tears"]
 const buttonMessages = ["Im gonna haunt you", "pls", "but why", "oowoowoowooooo", "BOO!"]
 
 // on yes click, change to boo-accept page
