@@ -65,7 +65,7 @@ button:hover {
     color:white;
     background-color: #a55f9d;
     position: absolute;
-    left: 40%; 
+    left: 35%; 
     top: 53.85%;
     transform: translateX(-50%); /* Centers the button on its left position */
     font-size: 2rem;
@@ -75,9 +75,29 @@ button:hover {
     color:white;
     background-color: #E77665;
     font-size: 2rem;
-    left: 60%; 
+    left: 65%; 
     top: 53.85%;
     transform: translateX(-50%); /* Centers the button on its left position */
     position: absolute;
 }
 
+/* iPhone-specific adjustments */
+@media screen and (max-width: 428px) {
+    #yes_button {
+        left: 70%;       /* Even further apart on small screens */
+    }
+    
+    #no_button {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #yes_button {
+        left: 75%;       /* Maximum separation on smallest iPhones */
+    }
+    
+    #no_button {
+        left: 25%;
+    }
+}
