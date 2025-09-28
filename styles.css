@@ -113,7 +113,6 @@ button:hover {
     
     #ghost-gif {
         top: 20%; /* Move ghost higher if needed */
-        width: 20rem;
     }
 }
 
@@ -124,6 +123,5 @@ button:hover {
     
     #ghost-gif {
         top: 15%;
-        width: 20rem;
     }
 }
