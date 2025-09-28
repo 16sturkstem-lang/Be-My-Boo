@@ -30,15 +30,17 @@ p {
 .container {
     max-width: 100%;
     margin: 0 auto 0 auto;
+    
 }
 
 #ghost-gif {
-    width: 31rem;
+    width: 35rem;
     height: 31.25rem;
     object-fit: cover;
     margin: 0 auto;
     display: block;
     align-self: center;
+    transform: scale(0.8);
 }
 
 .buttons-container {
