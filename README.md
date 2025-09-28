@@ -1,4 +1,4 @@
-# Be-My-Boo
+# Be-My-Boo 👻❤
 
 A fun little site to invite someone to be your boo of the season! 
 
