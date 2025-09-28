@@ -27,6 +27,11 @@ p {
   font-size: xxx-large;
 }
 
+h1 {
+  color: rgb(31, 8, 34);
+  font-size: xxx-large;
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto 0 auto;
@@ -110,7 +115,7 @@ button:hover {
 }
 
 /* Move content higher on mobile screens */
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 844px) {
     #yes_button, #no_button {
         top: 75%; /* Move buttons higher up */
     }
@@ -118,11 +123,14 @@ button:hover {
     #ghost-gif {
         position: absolute;
         left: 50%; 
-        transform: translateX(-50%) scale(0.7);
+        transform: translateX(-50%) scale(0.6);
+        top: 5%;
     }
     p {
         position: absolute;
-
+        left: 50%; 
+        transform: translateX(-50%) scale(0.6);
+        top: 50%;
     }
 }
 
@@ -134,10 +142,14 @@ button:hover {
     #ghost-gif {
         position: absolute;
         left: 50%; 
-        transform: translateX(-50%) scale(0.7);
+        transform: translateX(-50%) scale(0.6);
+        top: 5%;
+
     }
     p {
         position: absolute;
-
+        left: 50%; 
+        transform: translateX(-50%) scale(0.6);
+        top: 50%;
     }
 }
