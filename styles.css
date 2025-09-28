@@ -37,6 +37,8 @@ p {
     height: 31.25rem;
     object-fit: cover;
     margin: 0 auto;
+    display: block;
+    align-self: center;
 }
 
 .buttons-container {
@@ -112,8 +114,6 @@ button:hover {
     }
     
     #ghost-gif {
-        top: 20%; /* Move ghost higher if needed */
-        left: 25%;  
         transform: scale(0.7);
     }
 }
@@ -124,8 +124,6 @@ button:hover {
     }
     
     #ghost-gif {
-        top: 15%;
-        left: 25%;  
         transform: scale(0.7);
     }
 }
