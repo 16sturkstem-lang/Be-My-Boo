@@ -36,6 +36,7 @@ p {
     width: 31rem;
     height: 31.25rem;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .buttons-container {
@@ -86,6 +87,7 @@ button:hover {
 @media screen and (max-width: 428px) {
     #yes_button {
         left: 30%;       /* Even further apart on small screens */
+        width: 20rem;
     }
     
     #no_button {
